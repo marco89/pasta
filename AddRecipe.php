@@ -30,16 +30,22 @@ include "types.php";
 
 ?>
 
-<body>
+<body style="background-color:#faf8f9">
     <div class="container-fluid w-100 h-50 p-1">
         <div class="col-md-12">
-            <h1>Pasta</h1>
+            <h1>Add a new variety of pasta to our library</h1>
             <br>
         </div>
-        <div class="form-group w-50">
+        <div class="form-group">
             <!--why doesn't width scaling work here?-->
-            <label for="exampleInputEmail1">Name:</label>
-            <input type="text" id="pasta-name" name="pasta-name" value="<?= $_POST['pasta-name'] ?? ''; ?>" placeholder="What is the pasta called?" />
+            <label for="exampleInputEmail1"></label>
+            <input type="text" id="pasta-name" name="pasta-name" value="<?= $_POST['pasta-name'] ?? ''; ?>" placeholder="What is the pasta called?" style="width: 400px;" />
+        </div>
+        <div class="form-group">
+            <!--why doesn't width scaling work here?-->
+            <label for="exampleInputEmail1"></label>
+            <input type="text" id="pairing" name="pairing" value="<?= $_POST['pairing'] ?? ''; ?>" placeholder="What do you pair with this pasta?" style="width: 400px;" />
+            <small id="pairingHelp" class="form-text text-muted">For example, linguini con vongole is paired with clams, so this field would be "Clams".</small>
         </div>
         <select class="form-control w-50">
             <option hidden selected="selected">What region is it from?</option>
