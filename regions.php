@@ -7,7 +7,7 @@ $regions = ["Abruzzo",
             "Calabria",
             "Campania",
             "Emilia-Romagna",
-            "Latium",
+            "Lazio",
             "Ligura",
             "Lombardy",
             "Molise",
@@ -17,6 +17,7 @@ $regions = ["Abruzzo",
             "Tuscany",
             "Umbria",
             "Veneto",
-            "Venezia"];
+            "Venezia",
+            "I don't know"];
 
 ?>
