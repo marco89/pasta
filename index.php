@@ -16,8 +16,11 @@
     <title>Pasta</title>
 </head>
 
-<body>
-    hello
+<body style="background-color:#faf8f9">
+    <div class="container-fluid" style="">
+    <img src="images\map.jpg" alt="Pasta map of Italy">
+    <a role="button" class="btn btn-primary" name="add" id="add" href="AddRecipe.php">Add new pasta variety</a>
+    </div>
 </body>
 
 </html>
