@@ -14,3 +14,5 @@ try {
   } catch(PDOException $error) {
     echo "Connection failed: " . $error->getMessage();
   }
+
+$SqlInsert = "INSERT INTO pasta VALUES ('$name', '$pairing', '$region', '$shape')";
